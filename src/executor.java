@@ -1,4 +1,4 @@
-public class executor {
+public class executor extends Joker {
 
     public static void main(String[] args) {
 
