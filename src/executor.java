@@ -1,8 +1,16 @@
 public class executor extends Joker {
 
+    static Joker targetJoker = new Joker();
+
     public static void main(String[] args) {
 
         printWelcome();
+        System.out.println("\n");
+        testGetters();
+
+        testSetters("test1", 1, "test1", "test1", true, true);
+        System.out.println("\n");
+        testGetters();
     }
 
     private static void printWelcome() {
@@ -34,6 +42,31 @@ public class executor extends Joker {
         System.out.println("8. Hands/Discards: Affects hands/discards amount or makes hands easier to play");
         System.out.println("9. Other: All other abilities");
         System.out.println();
-        System.out.println("And that's it! Easy peasy! Ready to start a game?");
+        System.out.print("And that's it! Easy peasy! Ready to start a game? (Y/N): ");
+    }
+
+    private static void testGetters() {
+
+        System.out.println(" -- Begin testing -- ");
+        System.out.println("Testing getName(): " + targetJoker.getName());
+        System.out.println("Testing getCost(): " + targetJoker.getCost());
+        System.out.println("Testing getRarity(): " + targetJoker.getRarity());
+        System.out.println("Testing getAbility(): " + targetJoker.getAbility());
+        System.out.println("Testing isScaling(): " + targetJoker.isScaling());
+        System.out.println("Testing isRng(): " + targetJoker.isRng());
+        System.out.println(" -- Finished testing -- ");
+    }
+
+    private static void testSetters(String name, int cost,
+                                    String rarity, String ability,
+                                    boolean scaling, boolean rng) {
+
+        System.out.println(" -- Begin testing -- ");
+        targetJoker.setName(name);
+        targetJoker.setCost(cost);
+        targetJoker.setRarity(rarity);
+        targetJoker.setAbility(ability);
+        targetJoker.setScaling(scaling);
+        targetJoker.setRng(rng);
     }
 }
