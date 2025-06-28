@@ -5,12 +5,6 @@ public class executor extends Joker {
     public static void main(String[] args) {
 
         printWelcome();
-        System.out.println("\n");
-        testGetters();
-
-        testSetters("test1", 1, "test1", "test1", true, true);
-        System.out.println("\n");
-        testGetters();
     }
 
     private static void printWelcome() {

@@ -1,0 +1,150 @@
+Joker,$2,Common,+Mult,No,No
+Greedy Joker,$5,Common,+Mult,No,No
+Lusty Joker,$5,Common,+Mult,No,No
+Wrathful Joker,$5,Common,+Mult,No,No
+Gluttonous Joker,$5,Common,+Mult,No,No
+Jolly Joker,$3,Common,+Mult,No,No
+Zany Joker,$4,Common,+Mult,No,No
+Mad Joker,$4,Common,+Mult,No,No
+Crazy Joker,$4,Common,+Mult,No,No
+Droll Joker,$4,Common,+Mult,No,No
+Sly Joker,$3,Common,+Chips,No,No
+Wily Joker,$4,Common,+Chips,No,No
+Clever Joker,$4,Common,+Chips,No,No
+Devious Joker,$4,Common,+Chips,No,No
+Crafty Joker,$4,Common,+Chips,No,No
+Half Joker,$5,Common,+Mult,No,No
+Joker Stencil,$8,Uncommon,xMult,Yes,No
+Four Fingers,$7,Uncommon,Hands/Discards,No,No
+Mime,$5,Uncommon,Retrigger/Copy,No,No
+Credit Card,$1,Common,Economy,No,No
+Ceremonial Dagger,$6,Uncommon,+Mult,Yes,No
+Banner,$5,Common,+Chips,No,No
+Mystic Summit,$5,Common,+Mult,No,No
+Marble Joker,$6,Uncommon,Creation,No,No
+Loyalty Card,$5,Uncommon,xMult,No,No
+8 Ball,$5,Common,Creation,No,Yes
+Misprint,$4,Common,+Mult,No,No
+Dusk,$5,Uncommon,Retrigger/Copy,No,No
+Raised Fist,$5,Common,+Mult,No,No
+Chaos the Clown,$4,Common,Economy,No,No
+Fibonacci,$8,Uncommon,+Mult,No,No
+Steel Joker,$7,Uncommon,xMult,Yes,No
+Scary Face,$4,Common,+Chips,No,No
+Abstract Joker,$4,Common,+Mult,Yes,No
+Delayed Gratification,$4,Common,Economy,No,No
+Hack,$6,Uncommon,Retrigger/Copy,No,No
+Pareidolia,$5,Uncommon,Other,No,No
+Gros Michel,$5,Common,+Mult,No,Yes
+Even Steven,$4,Common,+Mult,No,No
+Odd Todd,$4,Common,+Chips,No,No
+Scholar,$4,Common,+Mult & +Chips,No,No
+Business Card,$4,Common,Economy,No,Yes
+Supernova,$5,Common,+Mult,No,No
+Ride the Bus,$6,Common,+Mult,Yes,No
+Space Joker,$5,Uncommon,Other,No,Yes
+Egg,$4,Common,Economy,No,No
+Burglar,$6,Uncommon,Hands/Discards,No,No
+Blackboard,$6,Uncommon,xMult,No,No
+Runner,$5,Common,+Chips,Yes,No
+Ice Cream,$5,Common,+Chips,Yes,No
+DNA,$8,Rare,Creation,No,No
+Splash,$3,Common,Hands/Discards,No,No
+Blue Joker,$5,Common,+Chips,Yes,No
+Sixth Sense,$6,Uncommon,Creation,No,No
+Constellation,$6,Uncommon,xMult,Yes,No
+Hiker,$5,Uncommon,+Chips,No,No
+Faceless Joker,$4,Common,Economy,No,No
+Green Joker,$4,Common,+Mult,Yes,No
+Superposition,$4,Common,Creation,No,No
+To Do List,$4,Common,Economy,No,No
+Cavendish,$4,Common,xMult,No,Yes
+Card Sharp,$6,Uncommon,xMult,No,No
+Red Card,$5,Common,+Mult,Yes,No
+Madness,$7,Uncommon,xMult,Yes,No
+Square Joker,$4,Common,+Chips,Yes,No
+Séance,$6,Uncommon,Creation,No,No
+Riff-Raff,$6,Common,Creation,No,No
+Vampire,$7,Uncommon,xMult,Yes,No
+Shortcut,$7,Uncommon,Hands/Discards,No,No
+Hologram,$7,Uncommon,xMult,Yes,No
+Vagabond,$8,Rare,Creation,No,No
+Baron,$8,Rare,xMult,No,No
+Cloud 9,$7,Uncommon,Economy,Yes,No
+Rocket,$6,Uncommon,Economy,Yes,No
+Obelisk,$8,Rare,xMult,Yes,No
+Midas Mask,$7,Uncommon,Other,No,No
+Luchador,$5,Uncommon,Other,No,No
+Photograph,$5,Common,xMult,No,No
+Gift Card,$6,Uncommon,Economy,No,No
+Turtle Bean,$6,Uncommon,Hands/Discards,Yes,No
+Erosion,$6,Uncommon,+Mult,Yes,No
+Reserved Parking,$6,Common,Economy,No,Yes
+Mail-In Rebate,$4,Common,Economy,No,No
+To the Moon,$5,Uncommon,Economy,No,No
+Hallucination,$4,Common,Creation,No,Yes
+Fortune Teller,$6,Common,+Mult,Yes,No
+Juggler,$4,Common,Hands/Discards,No,No
+Drunkard,$4,Common,Hands/Discards,No,No
+Stone Joker,$6,Uncommon,+Chips,Yes,No
+Golden Joker,$6,Common,Economy,No,No
+Lucky Cat,$6,Uncommon,xMult,Yes,No
+Baseball Card,$8,Rare,xMult,No,No
+Bull,$6,Uncommon,+Chips,Yes,No
+Diet Cola,$6,Uncommon,Other,No,No
+Trading Card,$6,Uncommon,Economy,No,No
+Flash Card,$5,Uncommon,+Mult,Yes,No
+Popcorn,$5,Common,+Mult,Yes,No
+Spare Trousers,$6,Uncommon,+Mult,Yes,No
+Ancient Joker,$8,Rare,xMult,No,No
+Ramen,$6,Uncommon,xMult,Yes,No
+Walkie Talkie,$4,Common,+Mult & +Chips,No,No
+Seltzer,$6,Uncommon,Retrigger/Copy,No,No
+Castle,$6,Uncommon,+Chips,Yes,No
+Smiley Face,$4,Common,+Mult,No,No
+Campfire,$9,Rare,xMult,Yes,No
+Golden Ticket,$5,Common,Economy,No,No
+Mr. Bones,$5,Uncommon,Other,No,No
+Acrobat,$6,Uncommon,xMult,No,No
+Sock and Buskin,$6,Uncommon,Retrigger/Copy,No,No
+Swashbuckler,$4,Common,+Mult,Yes,No
+Troubadour,$6,Uncommon,Hands/Discards,No,No
+Certificate,$6,Uncommon,Creation,No,No
+Smeared Joker,$7,Uncommon,Hands/Discards,No,No
+Throwback,$6,Uncommon,xMult,Yes,No
+Hanging Chad,$4,Common,Retrigger/Copy,No,No
+Rough Gem,$7,Uncommon,Economy,No,No
+Bloodstone,$7,Uncommon,xMult,Yes,No
+Arrowhead,$7,Uncommon,+Chips,No,No
+Onyx Agate,$7,Uncommon,+Mult,No,No
+Glass Joker,$6,Uncommon,xMult,Yes,No
+Showman,$5,Uncommon,Other,No,No
+Flower Pot,$6,Uncommon,xMult,No,No
+Blueprint,$10,Rare,Retrigger/Copy,No,No
+Wee Joker,$8,Rare,+Chips,Yes,No
+Merry Andy,$7,Uncommon,Hands/Discards,No,No
+Oops! All 6s,$4,Uncommon,Other,No,No
+The Idol,$6,Uncommon,xMult,No,No
+Seeing Double,$6,Uncommon,xMult,No,No
+Matador,$7,Uncommon,Economy,No,No
+Hit the Road,$8,Rare,xMult,Yes,No
+The Duo,$8,Rare,xMult,No,No
+The Trio,$8,Rare,xMult,No,No
+The Family,$8,Rare,xMult,No,No
+The Order,$8,Rare,xMult,No,No
+The Tribe,$8,Rare,xMult,No,No
+Stuntman,$7,Rare,+Chips,No,No
+Invisible Joker,$8,Rare,Creation,No,No
+Brainstorm,$10,Rare,Retrigger/Copy,No,No
+Satellite,$6,Uncommon,Economy,Yes,No
+Shoot the Moon,$5,Common,+Mult,No,No
+Driver's License,$7,Rare,xMult,No,No
+Cartomancer,$6,Uncommon,Creation,No,No
+Astronomer,$8,Uncommon,Economy,No,No
+Burnt Joker,$8,Rare,Other,No,No
+Bootstraps,$7,Uncommon,+Mult,Yes,No
+Canio,N/A,Legendary,xMult,Yes,No
+Triboulet,N/A,Legendary,xMult,No,No
+Yorick,N/A,Legendary,xMult,Yes,No
+Chicot,N/A,Legendary,Other,No,No
+Perkeo,N/A,Legendary,Creation,No,No
