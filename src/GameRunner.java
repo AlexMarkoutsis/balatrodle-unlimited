@@ -1,10 +1,19 @@
-public class executor extends Joker {
+import java.util.List;
+
+public class GameRunner {
 
     static Joker targetJoker = new Joker();
 
     public static void main(String[] args) {
 
         printWelcome();
+
+        List<Joker> allJokers = JokerLoader.loadFromCSV("jokers.csv");
+        System.out.println("Loaded " + allJokers.size() + " Jokers.");
+
+        for (Joker joker : allJokers) {
+            System.out.println(joker.getName() + " (" + joker.getRarity() + ")");
+        }
     }
 
     private static void printWelcome() {
