@@ -1,19 +1,36 @@
 import java.util.List;
+import java.util.Random;
 
 public class GameRunner {
 
     static Joker targetJoker = new Joker();
 
+    static List<Joker> allJokers = JokerLoader.loadFromCSV("jokers.csv");
+
     public static void main(String[] args) {
 
-        printWelcome();
-
-        List<Joker> allJokers = JokerLoader.loadFromCSV("jokers.csv");
-        System.out.println("Loaded " + allJokers.size() + " Jokers.");
-
-        for (Joker joker : allJokers) {
-            System.out.println(joker.getName() + " (" + joker.getRarity() + ")");
+        if (allJokers.isEmpty()) {
+            System.out.println("No Jokers found. Exiting...");
+            return;
         }
+
+        printWelcome();
+        setTargetJoker();
+
+        System.out.println(targetJoker.getName() + " " + targetJoker.getRarity());
+    }
+
+    private static void setTargetJoker() {
+
+        Random random = new Random();
+        Joker randomJoker = allJokers.get(random.nextInt(allJokers.size()));
+
+        targetJoker.setName(randomJoker.getName());
+        targetJoker.setCost(randomJoker.getCost());
+        targetJoker.setRarity(randomJoker.getRarity());
+        targetJoker.setAbility(randomJoker.getAbility());
+        targetJoker.setScaling(randomJoker.isScaling());
+        targetJoker.setRng(randomJoker.isRng());
     }
 
     private static void printWelcome() {
@@ -46,30 +63,5 @@ public class GameRunner {
         System.out.println("9. Other: All other abilities");
         System.out.println();
         System.out.print("And that's it! Easy peasy! Ready to start a game? (Y/N): ");
-    }
-
-    private static void testGetters() {
-
-        System.out.println(" -- Begin testing -- ");
-        System.out.println("Testing getName(): " + targetJoker.getName());
-        System.out.println("Testing getCost(): " + targetJoker.getCost());
-        System.out.println("Testing getRarity(): " + targetJoker.getRarity());
-        System.out.println("Testing getAbility(): " + targetJoker.getAbility());
-        System.out.println("Testing isScaling(): " + targetJoker.isScaling());
-        System.out.println("Testing isRng(): " + targetJoker.isRng());
-        System.out.println(" -- Finished testing -- ");
-    }
-
-    private static void testSetters(String name, int cost,
-                                    String rarity, String ability,
-                                    boolean scaling, boolean rng) {
-
-        System.out.println(" -- Begin testing -- ");
-        targetJoker.setName(name);
-        targetJoker.setCost(cost);
-        targetJoker.setRarity(rarity);
-        targetJoker.setAbility(ability);
-        targetJoker.setScaling(scaling);
-        targetJoker.setRng(rng);
     }
 }
